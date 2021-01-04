@@ -16,4 +16,4 @@ To be able to run the tests:
 
 3- Change UDID and PLATFORM_VERSION in BaseTestClass.java into your devices specifications
 
-4- Run test from TestClass.java as TestNG
+4- Run tests from TestClass.java as TestNG
