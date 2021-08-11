@@ -1,19 +1,19 @@
-# appium-automation-testing
+# Appium Automation Framework
 
-This is an Appium android testing framework using Java and TestNG
+An Appium with Java project to create automation test cases for login and purchase scenarios on [Fatura](https://play.google.com/store/apps/details?id=com.faturaegypt.app&hl=en&gl=US) android application in debug stage
 
-The goal is to test Fatura apk in debug stage
+### Used Tools
 
-Maven is used to build the project
+* [Maven](https://maven.apache.org/) is used to build the project
+* [Extentreport](https://mvnrepository.com/artifact/com.relevantcodes/extentreports) depency is added for logging and reporting purposes 
 
-Extentreport depency is added for log and reporting purposes
+## Running the tests
 
-To be able to run the tests:
+* Connect your device, either real device or emulator
+* Run Appium server
+* Change UDID and PLATFORM_VERSION in BaseTestClass.java into your devices specifications
+* Run tests from TestClass.java as TestNG
 
-1- Connect your device, either real device or emulator
+## Authors
 
-2- Run Appium server
-
-3- Change UDID and PLATFORM_VERSION in BaseTestClass.java into your devices specifications
-
-4- Run tests from TestClass.java as TestNG
+* **Mahmoud Bindary**  (https://github.com/mahmoudbindary)
